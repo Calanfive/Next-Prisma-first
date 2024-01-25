@@ -22,3 +22,14 @@ export async function POST(
     
     return NextResponse.json({ newPilote })
 }
+
+export async function PUT(req: NextRequest) {
+  const pilote = await prisma.pilote.update({
+    where: { id: 1 },
+    data: {
+        name: "bobby",
+        age: 25,
+    }
+  });
+  return NextResponse.json({ pilote });
+}
