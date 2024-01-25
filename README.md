@@ -77,8 +77,8 @@ npx prisma generate
 
 ## Créer une serverless function qui permet de renvoyer la liste des données de la table Pilotes
 
-Dans le dossier pages, créez un dossier api  
-Dans le dossier pages/api, créer un fichier pilotes.ts
+Dans le dossier app, créez un dossier api  
+Dans le dossier app/api, créer un fichier pilotes.ts
 
 ```ts
 import { PrismaClient, Pilote } from '@prisma/client'
