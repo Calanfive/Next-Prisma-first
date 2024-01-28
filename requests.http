@@ -1,7 +1,7 @@
+GET http://localhost:3000/api/pilotes
+
+###
 POST http://localhost:3000/api/pilotes
 
 ###
-
-GET http://localhost:3000/api/pilotes/1
-
-###
+PUT http://localhost:3000/api/pilotes
